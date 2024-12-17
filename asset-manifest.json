@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aspect-tz/static/css/main.4fb0c210.css",
+    "main.js": "/aspect-tz/static/js/main.a0854fa0.js",
+    "index.html": "/aspect-tz/index.html",
+    "main.4fb0c210.css.map": "/aspect-tz/static/css/main.4fb0c210.css.map",
+    "main.a0854fa0.js.map": "/aspect-tz/static/js/main.a0854fa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb0c210.css",
+    "static/js/main.a0854fa0.js"
+  ]
+}
