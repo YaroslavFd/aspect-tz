@@ -1,0 +1,188 @@
+.app {
+  padding: 20px;
+}
+
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h4 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 19px;
+  }
+}
+
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.select-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .icon-box {
+    position: absolute;
+    right: 195px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .icon-box {
+    position: absolute;
+    left: 95px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.hint {
+  flex-basis: 100%;
+}
+
+.input {
+  padding: 10px 20px 9px 30px;
+  width: 90%;
+  border: 2px solid rgb(199, 199, 199);
+  border-radius: 3px;
+}
+
+.input::placeholder {
+  color: rgb(197, 196, 196);
+}
+
+.select {
+  width: 220px;
+  padding: 10px 40px 10px 30px;
+  border: 2px solid rgb(199, 199, 199);
+  border-radius: 3px;
+}
+
+.select-box:after {
+  content: "⏷";
+  font-size: 20px;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.servers-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  svg {
+    transform: translateY(2px);
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.button {
+  background: transparent;
+  padding: 9px 10px;
+  border: 1px solid rgb(43, 148, 200);
+  border-radius: 3px;
+  color: rgb(43, 148, 200);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.button:hover {
+  background: rgb(43, 148, 200);
+  color: white;
+
+  .plus-icon {
+    path {
+      fill: white;
+    }
+  }
+}
+
+.delete-button {
+  border: 0;
+
+  path {
+    fill: #ff0000;
+  }
+}
+
+.delete-button:hover {
+  background: transparent;
+  opacity: 0.7;
+}
+
+.form-button {
+  margin-left: auto;
+  width: 300px;
+}
+
+.vial-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.plus-icon {
+  path {
+    transition: all 0.2s ease;
+    fill: rgb(43, 148, 200);
+  }
+}
