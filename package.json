@@ -2,6 +2,7 @@
   "name": "mp-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://YaroslavFd.github.io/aspect-tz",
   "dependencies": {
     "mobx": "^6.5.0",
     "mobx-react-lite": "^3.3.0",
